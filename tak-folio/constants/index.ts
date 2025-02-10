@@ -149,12 +149,30 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
+    {
+      skill_name: "Twig",
+      Image: "/twig.svg",
+      width: 80,
+      height: 80,
+    },
   ];
   
   export const Backend_skill = [
     {
       skill_name: "Node js",
       Image: "/node-js.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Symfony",
+      Image: "/symfony.svg",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "PHP",
+      Image: "/php.svg",
       width: 80,
       height: 80,
     },
