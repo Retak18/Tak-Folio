@@ -26,7 +26,7 @@ const ProjectCard = ({ src, title, description, technologies }: Props) => {
         <div className="flex flex-wrap gap-2 mt-4">{technologies.map((tech, i) => (
                   <span
                     key={i}
-                    className=" text-xs rounded-full"
+                    className=" text-xs rounded-full px-3 py-1 bg-blue-500 text-white"
                   >
                     {tech}
                   </span>
