@@ -165,14 +165,14 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Symfony",
-      Image: "/symfony.svg",
+      skill_name: "PHP",
+      Image: "/php.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "PHP",
-      Image: "/php.svg",
+      skill_name: "Symfony",
+      Image: "/symfony.svg",
       width: 80,
       height: 80,
     },

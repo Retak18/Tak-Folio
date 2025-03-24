@@ -14,26 +14,26 @@ const Projects = () => {
         <ProjectCard
           src="/CryptoDashboard.webp"
           title="Crypto Dashboard"
-          description= "Project made with friends, an application with log-in/ log-up made to log and see yours own cryptocurrencies."
-          link="https://github.com/Retak18/CryptoDashboard-frontend.git"
+          description="Project made with friends, an application with log-in/ log-up made to log and see yours own cryptocurrencies."
+          technologies={[ "Next Js", "Express", "Node Js", "React Js", "Redux"]}
         />
         <ProjectCard
           src="/CardImage.png"
           title="Interactive Website Cards"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          link="https://github.com/Retak18/CryptoDashboard-frontend.git"
+          technologies="https://github.com/Retak18/CryptoDashboard-frontend.git"
           />
         <ProjectCard
           src="/MorningNews.webp"
           title="Morning News"
           description="A news application where you can read the news and you can see the category of the news, also you can search for which one you want, make favorite and the contrary."
-          link="https://github.com/Retak18/CryptoDashboard-frontend.git"
+          technologies={[ "React Js", "Next Js", "Express", "Node Js", "Nest Js", "Redux"]}
           />
         <ProjectCard
           src="/Kasa.webp"
           title="Kasa-Rent"
           description="Application of rental where to see differents properties, and differents picture of the rent by a carousel. "
-          link="https://github.com/Retak18/CryptoDashboard-frontend.git"
+          technologies= {["Next Js", "Express", "Node Js", "React Js", "Vite Js", "Router"]}          
           />
       </div>
     </div>
