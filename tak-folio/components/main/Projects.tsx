@@ -17,12 +17,12 @@ const Projects = () => {
           description="Project made with friends, an application with log-in/ log-up made to log and see yours own cryptocurrencies."
           technologies={[ "Next Js", "Express", "Node Js", "React Js", "Redux"]}
         />
-        <ProjectCard
+        {/* <ProjectCard
           src="/CardImage.png"
           title="Interactive Website Cards"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           technologies="https://github.com/Retak18/CryptoDashboard-frontend.git"
-          />
+          /> */}
         <ProjectCard
           src="/MorningNews.webp"
           title="Morning News"
