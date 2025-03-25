@@ -78,7 +78,7 @@ export const Skill_data = [
     {
       name: "Linkedin",
       src: "/linkedin-icon.svg",
-      link: "www.linkedin.com/tarek-lamarti-06b041b9",
+      link: "https://www.linkedin.com/in/tarek-lamarti-06b041b9/",
     },
     {
       name: "Github",
