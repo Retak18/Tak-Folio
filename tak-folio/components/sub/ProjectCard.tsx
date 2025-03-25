@@ -21,16 +21,18 @@ const ProjectCard = ({ src, title, description, technologies }: Props) => {
 
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
-        <h5  className="mt-2 cursor cursor-pointer text-blue-300">Technologies :</h5>
-        <div className="flex flex-wrap gap-2 mt-4">{technologies.map((tech, i) => (
-                  <span
-                    key={i}
-                    className=" text-xs rounded-full px-3 py-1 bg-blue-500 text-white"
-                  >
+        {/* <h5  className="mt-2 text-blue-300">Technologies used :</h5> */}
+        <div className="flex flex-wrap gap-2 mt-2">
+          {technologies && technologies.map((tech, i) => (
+            <span
+            key={i}
+            className=" text-xs rounded-full px-3 py-1 bg-gradient-to-r from-blue-500 to-purple-800 text-white"
+            >
                     {tech}
                   </span>
-                ))}</div>
+                ))}
+        </div>
+        <p className="mt-2 text-gray-300">{description}</p>
       </div>
     </div>
   );

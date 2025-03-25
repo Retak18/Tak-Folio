@@ -197,15 +197,15 @@ export const Skill_data = [
     {
       skill_name: "My SQL",
       Image: "/mysql.png",
-      width: 70,
-      height: 70,
+      width: 60,
+      height: 60,
     },
-    {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
-      width: 80,
-      height: 80,
-    },
+    // {
+    //   skill_name: "Graphql",
+    //   Image: "/graphql.png",
+    //   width: 80,
+    //   height: 80,
+    // },
   ];
   
   export const Full_stack = [
