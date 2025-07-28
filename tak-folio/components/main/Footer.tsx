@@ -7,7 +7,7 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-import { FaYoutube } from "react-icons/fa";
+// import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -18,6 +18,10 @@ const Footer = () => {
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
 
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                  
+                        <span className="text-[15px] ml-[6px]">tarek_lamarti@live.fr</span>    
+                    </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxLinkedinLogo />
                         <span className="text-[15px] ml-[6px]">Linkedin</span>    
@@ -30,6 +34,9 @@ const Footer = () => {
                         <RxDiscordLogo />
                         <span className="text-[15px] ml-[6px]">Discord</span>    
                     </p>
+                    {/* <a href="#" className="cursor-pointer">
+                    Projects
+                    </a> */}
                 </div>
                 {/* <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
@@ -56,10 +63,6 @@ const Footer = () => {
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                       
                         <span className="text-[15px] ml-[6px]">Learning about me</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                  
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
                     </p>
                 </div> */}
             </div>
