@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
@@ -25,6 +26,7 @@ export default function RootLayout({
         <StarsCanvas />
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
