@@ -41,7 +41,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center rotate-3">
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Backend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}

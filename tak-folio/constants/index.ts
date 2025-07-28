@@ -78,7 +78,7 @@ export const Skill_data = [
     {
       name: "Linkedin",
       src: "/linkedin-icon.svg",
-      link: "www.linkedin.com/tarek-lamarti-06b041b9",
+      link: "https://www.linkedin.com/in/tarek-lamarti-06b041b9/",
     },
     {
       name: "Github",
@@ -165,8 +165,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Symfony",
-      Image: "/symfony.svg",
+      skill_name: "Express js",
+      Image: "/express.png",
       width: 80,
       height: 80,
     },
@@ -177,8 +177,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Express js",
-      Image: "/express.png",
+      skill_name: "Symfony",
+      Image: "/symfony.svg",
       width: 80,
       height: 80,
     },
@@ -197,15 +197,15 @@ export const Skill_data = [
     {
       skill_name: "My SQL",
       Image: "/mysql.png",
-      width: 70,
-      height: 70,
+      width: 60,
+      height: 60,
     },
-    {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
-      width: 80,
-      height: 80,
-    },
+    // {
+    //   skill_name: "Graphql",
+    //   Image: "/graphql.png",
+    //   width: 80,
+    //   height: 80,
+    // },
   ];
   
   export const Full_stack = [
