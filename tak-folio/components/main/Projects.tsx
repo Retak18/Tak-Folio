@@ -32,7 +32,7 @@ const Projects = () => {
         <ProjectCard
           src="/Kasa.webp"
           title="Kasa-Rent"
-          description="Application of rental where to see differents properties, and differents picture of the rent by a carousel. "
+          description="Application of rental where to see different properties, and different pictures of the rent by a carousel. "
           technologies= {["Next Js", "Express", "Node Js", "React Js", "Vite Js", "Router"]}          
           />
           <ProjectCard
@@ -50,7 +50,7 @@ const Projects = () => {
         <ProjectCard
           src="/TakCook.webp"
           title="Tak-Cook"
-          description="Where do you go for see how to cook like a chief?! On Tak Cook! you can see differents recipes of different countries, make favorites and add recipes yourself. It was an application we had to make only with CSS no framework or other tools to help"
+          description="Where do you go for see how to cook like a chief?! On Tak Cook! you can see different recipes of different countries, make favorites and add recipes yourself. It was an application we had to make only with CSS no framework or other tools to help"
           technologies= {["Mongo DB", "Express", "Node Js", "React Js", "Router","Next Js"]}          
           />
       </div>

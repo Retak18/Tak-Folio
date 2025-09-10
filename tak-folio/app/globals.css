@@ -64,6 +64,14 @@
   display: none;
 }
 
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.animate-spin:hover {
+    animation: spin 0.1s linear infinite;
+}
 
 
 html {
