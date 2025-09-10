@@ -24,8 +24,9 @@ const Navbar = () => {
           </span>
         
         </a>
-          <a href="mailto:tarek_lamarti@live.fr" className="font-bold ml-[10px] cursor-pointer flex flex-col justify-center items-center  text-gray-300">
-            <img src="https://api.iconify.design/marketeq:envelope.svg"
+          <a href="mailto:tarek_lamarti@live.fr" className="font-bold mx-3 cursor-pointer flex flex-col justify-center items-center  text-gray-300">
+            <Image 
+            src="https://api.iconify.design/marketeq:envelope.svg"
             alt="Email"
             width={20}
             height={20}
@@ -58,7 +59,7 @@ const Navbar = () => {
               alt={social.name}
               width={40}
               height={40}
-              className=" cursor-pointer {/*active:animate-spin */} hover:animate-pulse "
+              className=" cursor-pointer {/*active:animate-spin */} hover:animate-pulse border-none"
             /></a>
           ))}
         </div>
