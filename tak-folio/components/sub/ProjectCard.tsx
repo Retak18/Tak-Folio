@@ -11,13 +11,27 @@ interface Props {
 const ProjectCard = ({ src, title, description, technologies }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-      <Image
+      {src.endsWith(".webp") || src.endsWith(".jpg") || src.endsWith(".jpeg") || src.endsWith(".png") || src.endsWith(".gif") ? 
+      (
+        <Image
         src={src}
         alt={title}
         width={1000}
         height={1000}
         className="w-full object-contain"
-      />
+        /> 
+      )
+      :(
+        <video
+        autoPlay
+        muted
+        loop
+        className="w-full object-contain "
+        >
+        <source 
+        src={src} 
+        type="video/webm" />
+        </video>)}
 
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>

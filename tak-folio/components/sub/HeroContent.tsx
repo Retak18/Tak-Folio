@@ -36,9 +36,9 @@ const HeroContent = () => {
             Providing
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              the best project{" "}
             </span>
-            project exprience
+            experience
           </span>
         </motion.div>
 
@@ -46,15 +46,18 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          Welcome i&apos;m
+          <span className="inline-flex items-baseline">
+            <img
+              src="/Tak_Image.webp"
+              className="mx-1 size-5 self-center rounded-full"
+            />
+            <span> Tarek </span>
+          </span>
+          <span>{' '}a Full Stack Software developer with experience in Website and
+          Mobile. I did that Portfolio myself, check out my projects and skills.</span>
         </motion.p>
-        {/* <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn More!
-        </motion.a> */}
+        
       </div>
 
       <motion.div

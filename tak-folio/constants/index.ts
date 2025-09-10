@@ -126,14 +126,14 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Redux",
-      Image: "/redux.png",
+      skill_name: "Bootstrap",
+      Image: "/bootstrap.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
+      skill_name: "Redux",
+      Image: "/redux.png",
       width: 80,
       height: 80,
     },
@@ -148,6 +148,12 @@ export const Skill_data = [
       Image: "/next.png",
       width: 80,
       height: 80,
+    },
+    {
+      skill_name: "React Native",
+      Image: "/ReactNative .png",
+      width: 70,
+      height: 70,
     },
     {
       skill_name: "Twig",
@@ -178,7 +184,13 @@ export const Skill_data = [
     },
     {
       skill_name: "Symfony",
-      Image: "/symfony.svg",
+      Image: "/Symfony-Dark.svg",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "Python",
+      Image: "/Python-Dark.svg",
       width: 80,
       height: 80,
     },
@@ -208,13 +220,7 @@ export const Skill_data = [
     // },
   ];
   
-  export const Full_stack = [
-    {
-      skill_name: "React Native",
-      Image: "/ReactNative .png",
-      width: 70,
-      height: 70,
-    },
+  export const Tools = [
     {
       skill_name: "Docker",
       Image: "/docker.webp",
