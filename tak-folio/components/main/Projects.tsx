@@ -14,19 +14,19 @@ const Projects = () => {
         <ProjectCard
           src="/CryptoDashboard.webp"
           title="Crypto Dashboard"
-          description="Project made with friends, an application with log-in/ log-up made to log and see yours own cryptocurrencies."
+          description="Project made with friends, an application with log-in/ log-up made to log and see yours own cryptocurrencies. Update of your portfolio at each connection, graphic and a visual of the evolution in the time"
           technologies={[ "Next Js", "Express", "Node Js", "React Js", "Redux"]}
         />
         <ProjectCard
           src="/MorningNews.webp"
           title="Morning News"
-          description="A news application where you can read the news and you can see the category of the news, also you can search for which one you want, make favorite and block what you dislike."
+          description="A news application where you can read the news and you can see the category of the news also, you can search for which one you want, make favorite and block what you dislike."
           technologies={[ "React Js", "Next Js", "Express", "Node Js", "Nest Js", "Redux"]}
           />
         <ProjectCard
           src="/Miniamaker.webp"
           title="Miniamaker"
-          description="An application for offer your services,or find somebody for make a service, or if your are an agent looking for a freelancer, an app with retriction if you are not subscribred."
+          description="An application with restriction if you are not subscribed for offer your services,or find somebody for make a service, or if your are an agent looking for a freelancer."
           technologies={[ "PHP", "Symfony", "Composer", "Yaml", "Stripe"]}
           />
         <ProjectCard
@@ -44,7 +44,7 @@ const Projects = () => {
         <ProjectCard
           src="/Tak-Expo.webp"
           title="Tak-Expo"
-          description="My first folio..."
+          description="My first folio with an accordion for show the projects"
           technologies= {[ "Tailwind Css","Typescript", "Express", "React Js","Next Js"]}          
           />
         <ProjectCard
