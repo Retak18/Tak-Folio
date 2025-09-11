@@ -35,8 +35,9 @@ const isIOS = () => {
 const StarBackground = (props: any) => {
   const ref = useRef<any>();
   
-  // Réduire le nombre de particules sur mobile pour les performances
-  const particleCount = useMemo(() => isIOS() ? 400 : 800, []);
+  // Réduire le nombre de particules sur Iphone pour les performances
+  const particleCount = useMemo(() => {if (isIOS()) return 200;
+     return  400;}, []);
   const particleSize = useMemo(() => isIOS() ? 0.003 : 0.002, []);
   
   const sphere = useMemo(() => generateSpherePoints(particleCount, 1.2), [particleCount]);
@@ -84,7 +85,7 @@ const StarsCanvas = () => {
         dpr={isIOS() ? 1 :[1, 2]} // Limite le pixel ratio pour les performances
         performance={{ min: 0.5 }} // Réduit automatiquement les FPS si nécessaire
         gl={{ 
-          antialias: false, // Désactive l'antialiasing sur mobile
+          antialias: !isIOS(), // Désactive l'antialiasing sur mobile
           alpha: true,
           powerPreference: "low-power" // Utilise le GPU basse consommation
         }}
