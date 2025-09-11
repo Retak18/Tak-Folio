@@ -30,7 +30,7 @@ const generateSpherePoints = (count: number, radius: number) => {
 const StarBackground = (props: any) => {
   const ref: any = useRef();
   const [sphere] = useState(() =>
-    generateSpherePoints(800, 1.2));
+    generateSpherePoints(400, 1.2));
 
   useFrame((state, delta) => {
     if (ref.current) {
