@@ -51,8 +51,8 @@ const HeroContent = () => {
             <Image
               src="/Tak_Image.webp"
               alt="Tarek image"
-              width={100}
-              height={100}
+              width={20}
+              height={20}
               className="mx-1 size-5 self-center rounded-full"
             />
             <span> Tarek </span>

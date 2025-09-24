@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import HeroContent from "../sub/HeroContent";
 
@@ -8,7 +9,10 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        className="rotate-180 absolute top-[-375px] md:top-[-300px] lg:top-[-222px]  h-full w-full left-0 z-[-2] object-cover "
+        playsInline
+        preload="auto"
+        className="rotate-180 absolute top-[-42%] md:top-[-40%] lg:top-[-38%]  h-full w-full  z-[-2] object-cover lg:object-fill left-1/2 transform -translate-x-1/2"
+        key="blackhole-video"
       >
         <source src="/blackhole.webm" type="video/webm" />
       </video>
