@@ -5,18 +5,12 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-4 ">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[5px]">
+        <div className="flex flex-row items-center">
         <a
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          {/* <Image
-            src="/Tak_peluche.jpg"
-            alt="logo"
-            width={50}
-            height={50}
-            className="cursor-pointer hover:animate-spin rounded-full"
-          /> */}
 
           <span className="font-bold m-3 hidden md:block text-gray-300 flex-col ">
             Tak
@@ -28,13 +22,15 @@ const Navbar = () => {
             <Image 
             src="https://api.iconify.design/marketeq:envelope.svg"
             alt="Email"
-            width={20}
-            height={20}
+            width={35}
+            height={35}
+            className="hover:animate-pulse md:width-[20px] md:height-auto "
             />
             <p className="hidden md:block ">
             tarek_lamarti@live.fr
             </p>
           </a>
+        </div>
 
         <div className=" flex md:w-[400px] lg:w-[500px] h-full flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] px-[20px] py-[10px] rounded-full text-gray-200 ">
@@ -57,8 +53,8 @@ const Navbar = () => {
           <Image
               src={social.src}
               alt={social.name}
-              width={40}
-              height={40}
+              width={35}
+              height={35}
               className=" cursor-pointer {/*active:animate-spin */} hover:animate-pulse border-none"
             /></a>
           ))}

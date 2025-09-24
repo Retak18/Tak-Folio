@@ -85,11 +85,11 @@ export const Skill_data = [
       src: "/github-icon.svg",
       link: "https://github.com/retak18"
     },
-    {
-      name: "Discord",
-      src: "/discord.svg",
-      link: ""
-    },
+    // {
+    //   name: "Discord",
+    //   src: "/discord.svg",
+    //   link: ""
+    // },
   ];
   
   
