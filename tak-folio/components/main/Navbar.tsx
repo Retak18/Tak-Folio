@@ -24,7 +24,7 @@ const Navbar = () => {
             alt="Email"
             width={35}
             height={35}
-            className="hover:animate-pulse md:width-[20px] md:height-auto "
+            className="hover:animate-pulse "
             />
             <p className="hidden md:block ">
             tarek_lamarti@live.fr
